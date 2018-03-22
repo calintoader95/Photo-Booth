@@ -3,6 +3,5 @@ $(document).ready(function () {
 
         $('.nav-bar').toggleClass('nav-bar--open', 500);
         $(this).toggleClass('open');
-
     })
 })
