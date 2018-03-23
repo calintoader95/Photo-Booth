@@ -9,8 +9,14 @@ asyncButtons.forEach(button => {
             url: `/${path}`,
             method: "GET",
             success: data => {
-                document.getElementById("page-content").innerHTML = data;
+                if (path === "/") {
+                    document.getElementById("page-content").innerHTML = "";
+                } else {
+                    document.getElementById("page-content").innerHTML = data;
+                }
             }
         });
     });
 });
+
+asyncButtons[0].click();

@@ -6,14 +6,12 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Quicksand" />
-    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
 
 <body>
 <header>
     <div class="container">
-
-        <a href="" data-type="async"><h1 class="logo">Happy<span>Camera</span></h1></a>
+        <h1 class="logo"><a href="home.html" data-type="async">Happy<span>Camera</span></a></h1>
 
         <nav class="nav-bar">
             <ul>
@@ -23,7 +21,7 @@
                 <li><a data-type="async" href="my-portfolio.php">My Portfolio</a></li>
                 <li><a data-type="async" href="contact.php">Contact</a></li>
                 <li><a data-type="async" href="account.php">My Account</a></li>
-                <li><a data-type="async" href="login.php">Login</a></li>
+                <li><a data-type="async" href="login.html">Login</a></li>
             </ul>
         </nav>
 
