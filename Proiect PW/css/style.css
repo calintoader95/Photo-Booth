@@ -1,5 +1,5 @@
 html, body {
-    background: #F0F8EA;
+    background: #F0F8EA !important;
     font-family: 'Quicksand', sans-serif;
 }
 
@@ -22,7 +22,12 @@ header::after {
     display: block;
 }
 
+#page-content {
+    padding: 5%;
+}
+
 .logo {
+    color: #EBEBD3;
     float: left;
     font-size: 1rem;
     margin: 0;
